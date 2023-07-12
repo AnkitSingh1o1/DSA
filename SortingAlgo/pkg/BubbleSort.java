@@ -1,4 +1,4 @@
-package SortingAlgos.pkg;
+package SortingAlgo.pkg;
 
 //Bubble Sort : Sorting by continuously sorting adjacent elements for n times
 //TC: O(N^2)
