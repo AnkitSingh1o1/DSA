@@ -4,6 +4,7 @@ package SortingAlgo.pkg;
 //and for each element of second part find the position of it in first part.
 //TC: O(N^2)
 //SC: O(1)
+
 public class InsertionSort {
     public static void main(String[] args){
         int[] arr = {3, 32, 5, 32, 666, 1};
