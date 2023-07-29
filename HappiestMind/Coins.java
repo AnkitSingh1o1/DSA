@@ -1,4 +1,4 @@
-package HappiestMind;
+
 import java.util.*;
 
 public class Coins{
