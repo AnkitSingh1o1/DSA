@@ -8,6 +8,8 @@ public class PostOrderTrav {
     public static void main(String[] args) {
         Node root = new Node(0);
         postOrder(root);
+
+        postOrderIterativeStack(root);
     }
 
     private static void postOrder(Node root) {
@@ -40,6 +42,33 @@ public class PostOrderTrav {
         while(s2.isEmpty()){
             System.out.println(s2.pop().data);
         }
+    }
+
+     //Using 1 stack
+    private static void postOrderIterativeStack(Node root){
+        Node curr = root;
+        Stack<Node> stack = new Stack<>();
+        while(curr != null || !stack.isEmpty()){
+            if(curr != null){
+                stack.push(curr);
+                curr = curr.left;
+            }
+            else{
+                Node temp = stack.peek().right;
+                if(temp == null){
+                    temp = stack.pop();
+                    System.out.println(temp.data);
+
+                    while(!stack.isEmpty() && temp == stack.peek().right){
+                        temp = stack.pop();
+                        System.out.println(temp.data);
+                    }
+                }else{
+                    curr = temp;
+                }
+            }
+        }
+
     }
     
 }
