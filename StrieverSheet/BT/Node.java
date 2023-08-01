@@ -1,9 +1,9 @@
-package BST;
+package StrieverSheet.BT;
 
 public class Node {
     int data;
-    Node left;
-    Node right;
+    public Node left;
+    public Node right;
     Node(int d){
         this.data = d;
         left = null;
