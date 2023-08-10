@@ -2,12 +2,15 @@ package StrieverSheet.BT;
 
 import java.util.*;
 
+import Node;
+
 //TC : O(N);
 //SC : O(N);
 public class PreOrderTraav {
     public static void main(String[] args) {
         Node root = new Node(0);
         preOrder(root);
+        preOrderIterative(root);
     }
 
     public static void preOrder(Node root){

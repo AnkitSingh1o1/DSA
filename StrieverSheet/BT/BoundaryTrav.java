@@ -2,6 +2,8 @@ package StrieverSheet.BT;
 
 import java.util.*;
 
+import Node;
+
 public class BoundaryTrav {
     public static boolean isLeaf(Node n) {
 

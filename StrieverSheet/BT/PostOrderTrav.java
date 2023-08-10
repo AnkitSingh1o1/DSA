@@ -2,13 +2,15 @@ package StrieverSheet.BT;
 
 import java.util.Stack;
 
+import Node;
+
 //TC : O(N);
 //SC : O(N);
 public class PostOrderTrav {
     public static void main(String[] args) {
         Node root = new Node(0);
         postOrder(root);
-
+        postOrderIterative(root);
         postOrderIterativeStack(root);
     }
 
