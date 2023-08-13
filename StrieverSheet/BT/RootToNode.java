@@ -3,8 +3,6 @@ package StrieverSheet.BT;
 import java.util.ArrayList;
 import java.util.List;
 
-import Node;
-
 public class RootToNode {
     public static void main(String[] args) {
         Node root = new Node(0);

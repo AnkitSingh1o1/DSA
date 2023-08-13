@@ -2,8 +2,6 @@ package StrieverSheet.BT;
 
 import java.util.*;
 
-import Node;
-
 //TC : O(N);
 //SC : O(N);
 public class PreOrderTraav {
