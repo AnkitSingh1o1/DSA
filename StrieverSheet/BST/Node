@@ -1,0 +1,6 @@
+class Node{
+    int val;
+    Node(int i){
+        this.val = i;
+    }
+}
