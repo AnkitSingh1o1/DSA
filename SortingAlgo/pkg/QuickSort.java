@@ -1,7 +1,6 @@
 package SortingAlgo.pkg;
 
-//Insertion Sort : Divide array in two parts, first part is sorted
-//and for each element of second part find the position of it in first part.
+//Quick Sort : Divide and Conquore
 //TC: O(NlogN)
 //SC: O(1)
 
