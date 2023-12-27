@@ -1,11 +1,5 @@
-package SortingAlgo.pkg;
-
-//Selection Sort : 2 parts, first part is sorted and
-//find the smallest in second part and place it in first part serially
-//TC: O(N^2)
-//SC: O(1)
 import java.util.*;
-public class SelectionSort {
+public class SortAndReflect{
     public static void main(String[] args){
     
         Scanner sc = new Scanner(System.in);
