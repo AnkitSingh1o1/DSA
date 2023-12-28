@@ -2,6 +2,8 @@ package StrieverSheet.Graph;
 
 import java.util.ArrayList;
 
+//DFS
+
 public class DetectCycleDirectedGraph {
     // Function to detect cycle in a directed graph.
     public boolean isCyclic(int v, ArrayList<ArrayList<Integer>> adj) {
